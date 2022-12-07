@@ -1,0 +1,125 @@
+/* Veronica Richey Week 8 CSS Assignment*/
+/* Heading 1 on all pages displays the page title in the center in blue*/
+h1 {
+    text-align: center;
+    color:blue;
+}
+/*The paragraph on the home page has a light aqua background, its font size is large and will go the width of 
+the page*/
+p {
+    background-color: rgb(204, 250, 250);
+    font-size: large;
+    text-align: justify;
+
+}
+/* .navbar is a class that is styling the navigation bar. When the cursor is moved over the navbar it changes
+ to a pointer.*/
+.navbar {
+    align-items: center;
+    cursor:pointer;
+}
+/* the next three area of code are required to create a nav bar that has the background lightskyblue*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lightskyblue;
+}
+/* the list items here are floating to the left side of the screen*/
+li {
+    float: left;
+}
+/* this portion styles the individual blocks */
+li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+/* the hover pseudo class here makes the background of the block turn yellow and the text turn black*/
+li a:hover {
+    background-color: yellow;
+    color: black;
+}
+/* the frame class is aligning the image on the Home page and is keeping them centered to the page width. 
+I chose to keep the images side by side without any margins
+or padding*/
+.frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+/* h2 is styling the second heading on the each page. I italized the font and centered it to the page,
+ and created a dotted yellow bottom border*/
+h2 {
+    color:blue;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    border-bottom: 5px dotted yellow ;
+}
+
+/* the join img id effects only the div join img. This is centering the image */
+#join_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+/* h3 is styling the title top reasons to join our group. I made this an eye catching blue with a different 
+style font from the rest of the page*/
+h3 {
+    text-align: center;
+    color:blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:  rgb(249, 249, 205);
+}
+.reasons {
+    display: flex;
+    background-color:  rgb(209, 249, 238);
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: blue;
+    
+}
+/* the form is styled similar to the nav bar with a skyblue background with padding in border box */
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:skyblue;
+
+}
+/* on the shop page I added backgrounds to each of the sale items and made them in-line blocked so they 
+would be side by side. I also styled the buttons a light blue color*/
+.hat {
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(209, 249, 238);
+    text-align: center;
+}
+
+.shirt {
+    display: inline-block;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: rgb(249, 249, 205);
+    text-align: center;
+   
+}
+
+button {
+    background-color: rgb(161, 236, 239);
+}
+
